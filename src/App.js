@@ -35,7 +35,7 @@ class App extends Component {
         this.setState({ highscore: newScore });
         this.shuffle(animations)
       }
-      else if (newScore === 4) {
+      else if (newScore === 10) {
         alert('You Won!')
         this.shuffle(animations)
       }
